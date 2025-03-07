@@ -1,6 +1,10 @@
-#!/usr/bin/env python3
-#!uv python3.12
-#!uv deps dagger-io==0.9.3
+#!/usr/bin/env -S uv run
+# /// script
+# requires-python = "==3.10"
+# dependencies = [
+#   "dagger-io",
+# ]
+# ///
 
 import sys
 import dagger
